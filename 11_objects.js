@@ -30,7 +30,7 @@ var user = {
       return `${this.firstName} is enrolled in total of ${this.courseList.length} courses`;
     },
   };
-  
+  // 
   var courseList = true;
   console.log(admin.firstName);
   console.log(admin.getCourseCount());

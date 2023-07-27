@@ -25,7 +25,7 @@ const myNumber = [23, 24, 25, 55, 66, 77, 87, 98];
 
 
 console.log(myNumber.filter((num) => num > 55));
-
+// 
 // slice and splice
 var users = ["Ted", "Tim", "Ton", "Sam", "Sor", "Sod"];
 
