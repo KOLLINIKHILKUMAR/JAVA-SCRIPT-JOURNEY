@@ -13,8 +13,8 @@ const MyUser = {
     role: "admin",
   };
   
-  console.log(MyUser.courseCount);
-  
-  const { name, courseCount, role } = MyUser;
-  console.log(role);
+console.log(MyUser.courseCount);
+
+const { name, courseCount, role } = MyUser;
+console.log(role);
   
