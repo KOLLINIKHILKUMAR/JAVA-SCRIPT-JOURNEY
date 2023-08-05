@@ -54,3 +54,15 @@ body {
 .front {
   transform: rotateY(180deg);
 }
+
+
+.makeit{
+  display: flex;
+  justify-content: center;
+}
+
+.makeit h4{
+  color: white;
+  padding: 2rem;
+  font-weight: 600;
+}
