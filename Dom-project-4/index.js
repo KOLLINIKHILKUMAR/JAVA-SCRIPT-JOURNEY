@@ -17,7 +17,7 @@ function starttimmer() {
     const currentHighScore = parseInt(getCookie("highScore")) || 0;
     document.getElementById("highscore").innerText = "Max-Score : " + currentHighScore;
     const intervalId = setInterval(() => {
-      if (timer < 31000) 
+      if (timer < 30000) 
       {
         timer++;
         timerelement.innerText = "Timer : " + timer + " sec";
