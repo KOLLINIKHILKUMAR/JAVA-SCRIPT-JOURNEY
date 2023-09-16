@@ -28,7 +28,7 @@ function starttimmer() {
       gameover.classList.remove("d-none");
       timmer=false;
       clearInterval(intervalId);
-      
+      window.location.reload();
     },31000);
   }
 }
